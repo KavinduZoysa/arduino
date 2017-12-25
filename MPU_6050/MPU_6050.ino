@@ -111,7 +111,7 @@ void getAngularVelocity() {
 void calculateAngle() {  
   // same equation can be written as 
   // angelZ = angelZ + ((timePresentZ - timePastZ)*(gyroZPresent + gyroZPast - 2*gyroZCalli)) / (2*1000*131);
-  // 1/(1000*2*131 = 0.00000382)
+  // 1/(1000*2*131) = 0.00000382
   // 1000 --> convert milli seconds into seconds
   // 2 --> comes when calculation area of trapezium
   // substacted the callibated result two times because there are two gyro readings
